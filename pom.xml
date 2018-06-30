@@ -35,8 +35,6 @@
 	</dependencyManagement>
 
 	<build>
-		
-
 		<plugins>
 			<plugin>
 				<groupId>org.wildfly.plugins</groupId>
