@@ -35,7 +35,7 @@
 	</dependencyManagement>
 
 	<build>
-		<finalName>${artifactId}</finalName>
+		
 
 		<plugins>
 			<plugin>
@@ -44,6 +44,14 @@
 				<version>1.2.2.Final</version>
 				<configuration>
 					<version>11.0.0.Final</version>
+				</configuration>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-release-plugin</artifactId>
+				<version>2.5.3</version>
+				<configuration>
+					<releaseProfiles>release</releaseProfiles>
 				</configuration>
 			</plugin>
 		</plugins>
